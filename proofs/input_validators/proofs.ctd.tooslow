@@ -1,0 +1,5 @@
+INT(1, 400000, n) NEWLINE
+REP(n, NEWLINE)
+  REGEX("([A-Z]{1,5} ){0,5}-> [A-Z]{1,5}")
+END
+NEWLINE

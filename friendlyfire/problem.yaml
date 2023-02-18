@@ -1,0 +1,8 @@
+source: KTH Challenge 2020
+license: cc by-sa
+author: Nils Gustafsson
+
+validation: custom
+
+limits:
+   time_multiplier: 2

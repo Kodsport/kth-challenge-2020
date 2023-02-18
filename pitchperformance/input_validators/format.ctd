@@ -1,0 +1,17 @@
+# Checks everything except the guarantee that 0 <= g(x) <= 10^4 for all x
+
+INT(1, 500, n) NEWLINE
+SET(x0=0)
+REP(n)
+   INT(x0+1, 10^4, x1) SPACE INT(0, 10^4) NEWLINE
+   SET(x0=x1)
+END
+
+INT(1, 500, m) NEWLINE
+SET(z0=0)
+REP(m)
+   INT(z0+1, 10^4, z1) SPACE INT(-10^7, 10^7) SPACE INT(-10^7, 10^7) SPACE INT(-10^7, 10^7) NEWLINE
+   SET(z0=z1)
+END
+
+ASSERT(x0 == z0)

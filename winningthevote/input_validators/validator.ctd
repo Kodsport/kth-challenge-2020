@@ -1,0 +1,3 @@
+INT(1, 5000, n) NEWLINE
+REGEX("[0-2]{1,5000}", s) NEWLINE
+ASSERT(STRLEN(s) == n)

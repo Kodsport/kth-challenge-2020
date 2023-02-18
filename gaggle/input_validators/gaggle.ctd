@@ -1,0 +1,6 @@
+INT(2, 500000, n) NEWLINE
+REPI(i, n, SPACE)
+   INT(1, n, a[i])
+   ASSERT(a[i] != i+1)
+END
+NEWLINE
