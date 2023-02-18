@@ -1,6 +1,6 @@
 source: KTH Challenge 2020
 license: cc by-sa
-author: Johan Sannemo and Per Austrin
+author: Johan Sannemo, Per Austrin
 
 validator_flags: float_tolerance 1e-6
 
